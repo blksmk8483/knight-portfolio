@@ -17,11 +17,20 @@
   color: #f0f0f0;
 }
 
-.about h2 {
+.hello-container {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 80px;
   color: #e9d35b;
-  height: 50px;
+  height: -350px;
+}
+
+.hello-1 {
+  font-size: 45px;
+}
+
+.hello-2 {
+  font-size: 128px;
+  margin-top: 0;
+  margin-bottom: 300px;
 }
 
 .about .prompt {
@@ -30,7 +39,7 @@
 }
 .prompt svg {
   font-size: 60px;
-  margin: 5px;
+  margin: 50px 5px 5px 5px;
   color: white;
 }
 
