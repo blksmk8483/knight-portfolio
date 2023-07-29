@@ -2,6 +2,7 @@
   width: 100%;
   height: 100px;
   background: #21325e;
+  /* margin-bottom: 48px; */
 }
 
 .links {
@@ -55,9 +56,9 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .navbar a {
+  /* .navbar a {
     width: 70px;
-  }
+  } */
 }
 
 @media only screen and (max-width: 600px) {

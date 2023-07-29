@@ -6,7 +6,7 @@ export const ProjectList = [
   {
     name: "Garden2",
     image: Garden2,
-    skills: "HTML, CSS, JavaScript, Handlebars",
+    skills: " HTML, CSS, JavaScript, Handlebars",
   },
   {
     name: "Employee Tracker",

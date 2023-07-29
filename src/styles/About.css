@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-pic {
+  height: 250px;
+  width: 200px;
+  border-radius: 50px;
+  padding-top: 24px;
+  padding-right: 24px;
+}
+
+.text-zone {
+  width: 600px;
+  margin-left: 24px;
+}
