@@ -9,12 +9,40 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <LinkedInIcon />
-        <GitHubIcon />
-        <FacebookIcon />
-        <EmailIcon />
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/brandon-knight-21940a206/"
+        >
+          <LinkedInIcon />
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/blksmk8483"
+        >
+          <GitHubIcon />
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.facebook.com/brandon.knight.5815"
+        >
+          <FacebookIcon />
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="mailto:knightbrandon1984@gmail.com"
+        >
+          <EmailIcon />
+        </a>
       </div>
-      <p> &copy; 2023 knighttechdesigns.com</p>
+      <p>
+        <a className="footer-a" href="/about">
+          &copy; 2023 knighttechdesigns.com
+        </a>
+      </p>
     </div>
   );
 }

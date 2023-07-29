@@ -9,13 +9,38 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, my name is Brandon</h2>
+        <h2> Hi, my name is Brandon!</h2>
         <div className="prompt">
-          <p> A Love to learn</p>
-          <LinkedInIcon />
-          <GitHubIcon />
-          <FacebookIcon />
-          <EmailIcon />
+          {/* <p> A Love to learn</p> */}
+
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/brandon-knight-21940a206/"
+          >
+            <LinkedInIcon />
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/blksmk8483"
+          >
+            <GitHubIcon />
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.facebook.com/brandon.knight.5815"
+          >
+            <FacebookIcon />
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="mailto:knightbrandon1984@gmail.com"
+          >
+            <EmailIcon />
+          </a>
         </div>
       </div>
       <div className="skills">
