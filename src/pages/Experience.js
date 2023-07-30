@@ -19,9 +19,9 @@ function Experience() {
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Texas A&M University-Commerce
+            Bachelor of Science in Music Education
           </h3>
-          <p>Bachelor of Science in Music Education</p>
+          <p>Texas A&M University-Commerce</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -65,9 +65,9 @@ function Experience() {
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            University of Texas at Austin
+            Full Stack Web Developer
           </h3>
-          <p>Full Stack Web Developer</p>
+          <p>University of Texas at Austin</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
