@@ -1,14 +1,14 @@
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 16px 48px;
+  margin-top: 24px;
 }
 
 .profile-pic {
-  height: 250px;
-  width: 200px;
+  height: 75vh;
+  width: auto;
   border-radius: 50px;
-  /* padding-top: 24px;
-  padding-right: 24px; */
 }
 
 .text-zone {
@@ -17,7 +17,26 @@
   margin-left: 24px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .profile-pic {
+    /* height: 75vh; */
+    height: calc(75vh - 200px);
+
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .profile-pic {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 600px) {
+  .container {
+    height: 100vh;
+    padding: 0 8px;
+  }
   .profile-pic {
     display: none;
   }

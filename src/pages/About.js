@@ -45,7 +45,7 @@ const About = () => {
           small business skills.
         </p>
       </div>
-      <div className="about-right-page">
+      <div className="image-box">
         <img className="profile-pic" src={ProfilePhoto} alt="profilePic" />
       </div>
     </div>
