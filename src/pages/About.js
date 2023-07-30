@@ -7,14 +7,13 @@ const About = () => {
       <div className="text-zone">
         <h1>About Me:</h1>
         <p className="about-text">
-          I am ready to begin my journey as a professional Full Stack Web
-          Developer! I pride myself in taking on challenges, solving them, and
-          being creative in the process.
+          I pride myself in taking on challenges, solving them, and being
+          creative in the process.
         </p>
         <p className="about-text">
-          I recently graduated from the University of Texas Austin Full Stack
-          Coding Bootcamp. I have experience with React, JavaScript, HTML, CSS,
-          MongoDB, Bootstrap and more.
+          As a graduate from the University of Texas Austin Full Stack Coding
+          Bootcamp I have experience with React, JavaScript, HTML, CSS, MongoDB,
+          Bootstrap and more.
         </p>
         <p className="about-text">
           Prior to web development, I was Director of Percussion in a large 6A
@@ -32,17 +31,8 @@ const About = () => {
           performance emphasis.
         </p>
         <p className="about-text">
-          My hobbies in life are learning new and interesting things, making and
-          teaching music, and gardening.
-        </p>
-        <p className="about-text">
-          I turned my three favorite passions into my own business, Lavender
-          Cove Farm. We sell locally and online to customers. We help educate
-          the Central Texas area on growing, not only lavender, but also a
-          variety of different herbs. Communication, maintaining inventory,
-          stocking multiple outlets that we sell too, fulfilling online orders,
-          and keeping a strong relationship with our customers are some of my
-          small business skills.
+          My hobbies in life are learning new and interesting things, making
+          music, and gardening.
         </p>
       </div>
       <div className="image-box">
