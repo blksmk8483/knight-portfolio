@@ -13,8 +13,8 @@ function Home() {
           <h2 className="hello-1"> Hi, my name is</h2>
           <h2 className="hello-2"> Brandon!</h2>
         </div>
-        <div className="prompt">
-          {/* <p> A Love to learn</p> */}
+        {/* <div className="prompt">
+        
 
           <a
             target="_blank"
@@ -45,8 +45,8 @@ function Home() {
             <EmailIcon />
           </a>
         </div>
-      </div>
-      <div className="skills">
+      </div> */}
+        {/* <div className="skills">
         <h1>Skills</h1>
         <ol className="list">
           <li className="item">
@@ -68,6 +68,7 @@ function Home() {
             <span>HTML, CSS, ReactJS,.......</span>
           </li>
         </ol>
+      </div> */}
       </div>
     </div>
   );

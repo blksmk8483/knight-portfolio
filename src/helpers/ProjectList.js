@@ -1,8 +1,16 @@
 import Garden2 from "../assets/Garden2.gif";
 import EmployeeTracker from "../assets/Employee-tracker.png";
 import NoteTaker from "../assets/Note-Taker.png";
+import ClashOfCharacters from "../assets/ClashOfCharacters.png";
 
 export const ProjectList = [
+  {
+    name: "Clash of Characters",
+    image: ClashOfCharacters,
+    description:
+      "Inspired by our love of video games, we developed a street fighter styled gaming application where users can choose their character and play against AI generated character.",
+    url: "https://clash-of-characters.herokuapp.com/",
+  },
   {
     name: "Garden2",
     image: Garden2,
