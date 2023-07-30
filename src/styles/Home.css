@@ -7,7 +7,8 @@
 
 .about {
   width: 100%;
-  height: calc(85vh - 100px);
+  height: calc(100vh - 200px);
+  /* height: 10vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,7 +21,7 @@
 .hello-container {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #e9d35b;
-  height: -350px;
+  margin-top: 200px;
 }
 
 .hello-1 {
@@ -28,7 +29,7 @@
 }
 
 .hello-2 {
-  font-size: 128px;
+  font-size: 96px;
   margin-top: 0;
   margin-bottom: 300px;
 }
@@ -70,24 +71,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .about h2 {
-    font-size: 40px;
-  }
-
-  .about .prompt {
-    margin-top: 10px;
-    font-size: 20px;
-    width: 80%;
-  }
-
-  .skills {
-    text-align: center;
-  }
-  .list {
-    padding: 0;
-  }
-
-  .skills h2 {
-    font-size: 30px;
+  .hello-2 {
+    font-size: 64px;
   }
 }

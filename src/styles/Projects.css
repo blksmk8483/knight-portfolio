@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: #343a40;
 }
 .projects .projectTitle {
   text-align: center;
