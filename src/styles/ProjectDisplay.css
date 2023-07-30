@@ -1,6 +1,7 @@
 .project {
   width: 100%;
-  height: calc(100vh - 100px);
+  /* height: calc(100vh - 100px); */
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,20 +31,30 @@
 .project p {
   font-size: 30px;
   color: #3e497a;
+  text-align: center;
+  width: calc(100vh - 100px);
 }
 
 .project svg {
   font-size: 40px;
   color: #3e497a;
+  padding-bottom: 16px;
 }
 
 @media only screen and (max-width: 900px) {
+  .project {
+    width: 100vh;
+    height: 100vh;
+  }
+  .project p {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .project {
     width: 100%;
-    height: calc(100vh - 300px);
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,9 +69,17 @@
     height: auto;
   }
 
-  .project-skills {
-    padding-left: 24px;
+  .project h1 {
+    text-align: center;
   }
+
+  .project p {
+    text-align: center;
+  }
+
+  /* .project-skills {
+    padding-left: 24px;
+  } */
 }
 
 @media only screen and (min-width: 600px) {
