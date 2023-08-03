@@ -11,7 +11,7 @@
   font-size: 62.5%;
   padding: 2.4rem 1.2rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   gap: 8rem;
 
   max-width: 130rem;
@@ -45,7 +45,7 @@
 
 .text-zone {
   font-size: 1.4rem;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 /* 
@@ -92,4 +92,27 @@
   .text-zone {
     height: 65vh;
   }
-} */
+}
+
+ */
+
+@media only screen and (max-width: 600px) {
+  .container {
+    /* height: 100%; */
+    max-width: 100%;
+    padding: 0 0.8rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile-pic {
+    width: 100%;
+    padding-bottom: 1.6rem;
+  }
+
+  .text-zone {
+    padding-bottom: 0;
+  }
+}
