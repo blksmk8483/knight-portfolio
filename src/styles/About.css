@@ -1,22 +1,53 @@
-.container {
+/* original */
+/* .container {
   display: flex;
   justify-content: space-around;
   padding: 16px 48px;
   margin-top: 24px;
   color: #343a40;
+} */
+
+.container {
+  font-size: 62.5%;
+  padding: 2.4rem 1.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8rem;
+
+  max-width: 130rem;
+  margin: 0 auto;
+  /* align-items: center; */
 }
 
+/* original */
+
+/* .profile-pic {
+  height: 50vh;
+  max-width: 100%;
+  border-radius: 50px;
+} */
+
 .profile-pic {
-  height: 75vh;
-  width: auto;
+  width: 74%;
   border-radius: 50px;
 }
 
-.text-zone {
+/* original */
+/* .text-zone {
   width: 600px;
   height: 725px;
   margin-left: 24px;
+} */
+
+.heading {
+  font-size: 2.4rem;
 }
+
+.text-zone {
+  font-size: 1.4rem;
+  line-height: 1.2;
+}
+
 /* 
 @media only screen and (max-width: 1200px) {
   .profile-pic {
@@ -31,15 +62,14 @@
   }
 } */
 
+/* original */
+/* 
 @media only screen and (max-width: 900px) {
   .container {
-    /* height: 100vh; */
     height: 100vh;
     padding: 0 8px;
   }
-  /* .profile-pic {
-    display: none;
-  } */
+
   .text-zone {
     height: 100vh;
     padding-bottom: 48px;
@@ -48,11 +78,9 @@
 
 @media only screen and (max-width: 600px) {
   .container {
-    /* height: 100vh; */
     height: calc(100vh + 200px);
     padding: 0 8px;
 
-    /* ---New stuff */
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -63,6 +91,5 @@
 
   .text-zone {
     height: 65vh;
-    /* height: calc(100vh - 100px); */
   }
-}
+} */
