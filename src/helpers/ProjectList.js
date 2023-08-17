@@ -4,8 +4,16 @@ import NoteTaker from "../assets/Note-Taker.png";
 import ClashOfCharacters from "../assets/ClashOfCharacters.png";
 import ECommerceSite from "../assets/E-Commerce-Site.png";
 import JournalPlaylist from "../assets/JournalPlaylist.gif";
+import Omnifood from "../assets/Omnifood.gif";
 
 export const ProjectList = [
+  {
+    name: "Omnifood",
+    image: Omnifood,
+    description:
+      "A food inspired project to further my HTML and CSS skills. A fully responsive modern website showcasing healhty meal options with monthly subscriptions.",
+    url: "https://omnifood-brandonk.netlify.app",
+  },
   {
     name: "Clash of Characters",
     image: ClashOfCharacters,
