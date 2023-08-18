@@ -11,7 +11,7 @@ export const ProjectList = [
     name: "Omnifood",
     image: Omnifood,
     description:
-      "A food inspired project to further my HTML and CSS skills. A fully responsive modern website showcasing healhty meal options with monthly subscriptions.",
+      "A food inspired project to further my HTML and CSS skills. A fully responsive modern website showcasing healthy meal options with monthly subscriptions.",
     url: "https://omnifood-brandonk.netlify.app",
   },
   {
