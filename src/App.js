@@ -11,7 +11,7 @@ import About from "./pages/About";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
