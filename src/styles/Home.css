@@ -120,6 +120,18 @@
 
 @media only screen and (max-width: 600px) {
   .hello-1 {
-    font-size: 3rem;
+    font-size: 2.4rem;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .about {
+    line-height: 0.7;
+  }
+  .hello-1 {
+    font-size: 7.6rem;
+  }
+  .hello-2 {
+    font-size: 15.8rem;
   }
 }
