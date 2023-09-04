@@ -133,3 +133,10 @@
     margin-top: 0.4rem;
   }
 }
+
+@media screen and (min-width: 1300px) {
+  .container {
+    width: auto;
+    height: calc(100vh - 9.6rem);
+  }
+}
