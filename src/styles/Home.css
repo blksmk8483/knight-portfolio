@@ -1,81 +1,3 @@
-/* .home {
-  width: 100%;
-  align-items: center;
-  font-family: "Arial", sans-serif;
-  color: #3e497a;
-}
-
-.about {
-  width: 100%;
-  height: calc(100vh - 200px);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: #21325e;
-  color: #f0f0f0;
-}
-
-.hello-container {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #e9d35b;
-  margin-top: 200px;
-}
-
-.hello-1 {
-  font-size: 45px;
-}
-
-.hello-2 {
-  font-size: 96px;
-  margin-top: 0;
-  margin-bottom: 300px;
-}
-
-.about .prompt {
-  width: 40%;
-  font-size: 30px;
-}
-.prompt svg {
-  font-size: 60px;
-  margin: 50px 5px 5px 5px;
-  color: white;
-}
-
-.prompt svg:hover {
-  color: #e9d35b;
-}
-
-.skills {
-  font-size: 35px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.skills h1 {
-  color: #3e497a;
-}
-
-.skills .list {
-  list-style: none;
-  width: 60%;
-}
-
-.list span {
-  font-size: 20px;
-}
-
-@media only screen and (max-width: 600px) {
-  .hello-2 {
-    font-size: 64px;
-  }
-} */
-
-/* --- Newer version of my styling */
 .home {
   /* height: 100dvh;
   width: 100dvw; */
@@ -102,7 +24,38 @@
 .hello-2 {
   font-size: 7.4rem;
   margin-top: 0;
+  padding-bottom: 3rem;
+  /* TYPE WRITER EFECT
+
+  border-right: solid 3px #e9d35b;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+
+  animation: hello-2 3s steps(9) 1s forwards, blink 0.5s steps(1) 1s; */
 }
+
+.hello-2.Typewriter {
+  color: #21325e;
+}
+
+/* @keyframes hello-2 {
+  to {
+    width: 18ch;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #e9d35b;
+  }
+  to {
+    border-color: transparent;
+  }
+} */
 
 @media only screen and (max-width: 600px) {
   .home {
