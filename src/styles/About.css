@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
 }
 
 .box {
@@ -12,6 +12,7 @@
 
 .image-box {
   text-align: center;
+  height: 100vh;
 }
 
 .image-box img {
@@ -27,6 +28,7 @@
   align-items: center;
   text-align: start;
   width: 48rem;
+  height: 100%;
 }
 
 .show-text-button {
@@ -50,40 +52,62 @@
   display: flex;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (min-width: 1201px) {
   .about-container {
     align-items: start;
     margin-top: 2.4rem;
   }
 
-  .image-box {
-    padding: 0 1rem;
+  .show-text-button {
+    bottom: 15rem;
   }
 
   .image-box img {
-    max-width: 90%;
+    height: auto;
+    max-width: 20%;
   }
 
-  .text-box {
-    width: auto;
-    padding: 0 1.2rem;
+  .header {
+    font-size: 3.6rem;
+    margin: 0;
   }
 
   .about-text {
-    font-size: 1.6rem;
+    font-size: 2rem;
     line-height: 1.4;
   }
+}
 
-  .about-text-top {
-    margin-top: 0.4rem;
+@media only screen and (max-width: 1200px) {
+  .about-container {
+    align-items: start;
+    margin-top: 2.8rem;
+    height: 100%;
+  }
+
+  .image-box {
+    padding: 6rem;
+  }
+
+  .image-box img {
+    height: auto;
+    max-width: 50%;
+  }
+
+  .header {
+    font-size: 4.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .about-text {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-left: 0.8rem;
   }
 }
 
 @media only screen and (max-width: 900px) {
-  .about-container {
-    align-items: start;
-    margin-top: 2.8rem;
-  }
   .image-box {
     padding: 0 1rem;
   }
@@ -94,7 +118,13 @@
   }
 
   .show-text-button {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    bottom: 20rem;
+  }
+
+  .text-box {
+    width: auto;
+    padding: 0 1.2rem;
   }
 
   .header {
@@ -110,9 +140,37 @@
   }
 }
 
-/* @media screen and (min-width: 1300px) {
-  .container {
-    width: auto;
-    height: calc(100vh - 9.6rem);
+@media only screen and (max-width: 600px) {
+  .about-container {
+    align-items: start;
+    margin-top: 2.4rem;
+    height: 100%;
   }
-} */
+
+  .image-box {
+    height: 100vh;
+  }
+
+  .image-box img {
+    width: 100%;
+    height: auto;
+  }
+
+  .header {
+    font-size: 3.6rem;
+  }
+
+  .about-text {
+    font-size: 1.6rem;
+    line-height: 1.4;
+  }
+
+  .about-text-top {
+    margin-top: 0.4rem;
+  }
+
+  .show-text-button {
+    font-size: 1.6rem;
+    bottom: 12rem;
+  }
+}
