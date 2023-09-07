@@ -74,35 +74,35 @@
 //           {showText && (
 //             <div className="text-zone">
 //               <h1 className="heading">About Me:</h1>
-//               <p className="about-text about-text-1 about-text-top">
-//                 I pride myself in taking on challenges, solving them, and being
-//                 creative in the process.
-//               </p>
-//               <p className="about-text about-text-2">
-//                 As a graduate from the University of Texas Austin Full Stack
-//                 Coding Bootcamp I have experience with React, JavaScript, HTML,
-//                 CSS, MongoDB, Bootstrap and more.
-//               </p>
-//               <p className="about-text about-text-3">
-//                 Prior to web development, I was Director of Percussion in a
-//                 large 6A high school. I was part of a team of directors that
-//                 collectively led our student musicians to many great successes
-//                 in the Fine Arts World.
-//               </p>
-//               <p className="about-text about-text-4">
-//                 My prior skills include teaching, music technology (Finale,
-//                 audio design), Microsoft Office, classroom management, public
-//                 speaking, public engagement, communication, and team
-//                 collaboration across multiple platforms.
-//               </p>
-//               <p className="about-text about-text-5">
-//                 I have a Bachelor of Science in Music Education (EC-12) with
-//                 performance emphasis.
-//               </p>
-//               <p className="about-text about-text-6">
-//                 My hobbies in life are learning new and interesting things,
-//                 making music, and gardening.
-//               </p>
+// <p className="about-text about-text-1 about-text-top">
+//   I pride myself in taking on challenges, solving them, and being
+//   creative in the process.
+// </p>
+// <p className="about-text about-text-2">
+//   As a graduate from the University of Texas Austin Full Stack
+//   Coding Bootcamp I have experience with React, JavaScript, HTML,
+//   CSS, MongoDB, Bootstrap and more.
+// </p>
+// <p className="about-text about-text-3">
+//   Prior to web development, I was Director of Percussion in a
+//   large 6A high school. I was part of a team of directors that
+//   collectively led our student musicians to many great successes
+//   in the Fine Arts World.
+// </p>
+// <p className="about-text about-text-4">
+//   My prior skills include teaching, music technology (Finale,
+//   audio design), Microsoft Office, classroom management, public
+//   speaking, public engagement, communication, and team
+//   collaboration across multiple platforms.
+// </p>
+// <p className="about-text about-text-5">
+//   I have a Bachelor of Science in Music Education (EC-12) with
+//   performance emphasis.
+// </p>
+// <p className="about-text about-text-6">
+//   My hobbies in life are learning new and interesting things,
+//   making music, and gardening.
+// </p>
 //             </div>
 //           )}
 //         </div>
@@ -135,10 +135,37 @@ const About = () => {
           </div>
         ) : (
           <div className="text-box">
-            <h1>About Me</h1>
+            <h1 className="header">About Me</h1>
             <p>
-              Your text content goes here. You can provide a brief description
-              about yourself.
+              <p className="about-text about-text-1 about-text-top">
+                I pride myself in taking on challenges, solving them, and being
+                creative in the process.
+              </p>
+              <p className="about-text about-text-2">
+                As a graduate from the University of Texas Austin Full Stack
+                Coding Bootcamp I have experience with React, JavaScript, HTML,
+                CSS, MongoDB, Bootstrap and more.
+              </p>
+              <p className="about-text about-text-3">
+                Prior to web development, I was Director of Percussion in a
+                large 6A high school. I was part of a team of directors that
+                collectively led our student musicians to many great successes
+                in the Fine Arts World.
+              </p>
+              <p className="about-text about-text-4">
+                My prior skills include teaching, music technology (Finale,
+                audio design), Microsoft Office, classroom management, public
+                speaking, public engagement, communication, and team
+                collaboration across multiple platforms.
+              </p>
+              <p className="about-text about-text-5">
+                I have a Bachelor of Science in Music Education (EC-12) with
+                performance emphasis.
+              </p>
+              <p className="about-text about-text-6">
+                My hobbies in life are learning new and interesting things,
+                making music, and gardening.
+              </p>
             </p>
           </div>
         )}

@@ -6,8 +6,12 @@
 }
 
 .box {
-  /* position: relative; */
-  display: flex;
+  position: relative;
+  text-align: center;
+}
+
+.image-box {
+  text-align: center;
 }
 
 .image-box img {
@@ -21,7 +25,8 @@
   display: none;
   flex-direction: column;
   align-items: center;
-  text-align: center;
+  text-align: start;
+  width: 48rem;
 }
 
 .show-text-button {
@@ -30,10 +35,10 @@
   left: 50%;
   transform: translateX(-50%);
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #4d5b7e;
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 5%;
   cursor: pointer;
 }
 
@@ -45,73 +50,23 @@
   display: flex;
 }
 
-/* ------- */
-/* 
-.container {
-  font-size: 62.5%;
-  padding: 2.4rem 1.2rem;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 6.4rem;
-
-  max-width: 130rem;
-  margin: 0 auto;
-}
-
-.profile-pic {
-  width: 14rem;
-  border-radius: 50%;
-}
-
-.heading {
-  font-size: 2.4rem;
-}
-
-.text-zone {
-  font-size: 1.4rem;
-  line-height: 1.5;
-}
-
-.about-text-1 {
-  opacity: 1;
-  transition: opacity 1000ms ease-in;
-}
-.about-text-2 {
-  transition-delay: 2000ms;
-}
-.about-text-3 {
-  transition-delay: 3000ms;
-}
-
-@media only screen and (max-width: 900px) {
-  .container {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    gap: 0.2rem;
-  }
-  .image-box {
-    display: flex;
-    justify-content: center;
-  }
-  .profile-pic {
-    width: 40%;
-    height: auto;
-    padding-bottom: 0.8rem;
-  }
-}
-
 @media only screen and (max-width: 600px) {
-  .profile-pic {
-    width: 80%;
-    padding-bottom: 0.8rem;
+  .about-container {
+    align-items: start;
+    margin-top: 2.4rem;
   }
 
-  .heading {
-    font-size: 2.1rem;
-    text-transform: uppercase;
-    margin-bottom: 0;
+  .image-box {
+    padding: 0 1rem;
+  }
+
+  .image-box img {
+    max-width: 90%;
+  }
+
+  .text-box {
+    width: auto;
+    padding: 0 1.2rem;
   }
 
   .about-text {
@@ -124,7 +79,38 @@
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media only screen and (max-width: 900px) {
+  .about-container {
+    align-items: start;
+    margin-top: 2.8rem;
+  }
+  .image-box {
+    padding: 0 1rem;
+  }
+
+  .image-box img {
+    height: auto;
+    max-width: 80%;
+  }
+
+  .show-text-button {
+    font-size: 2rem;
+  }
+
+  .header {
+    font-size: 4.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .about-text {
+    font-size: 2.4rem;
+    line-height: 1.4;
+    margin-left: 0.8rem;
+  }
+}
+
+/* @media screen and (min-width: 1300px) {
   .container {
     width: auto;
     height: calc(100vh - 9.6rem);
