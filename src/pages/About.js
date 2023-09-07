@@ -86,6 +86,7 @@ const About = () => {
           </div>
         ) : (
           <div className="text-box">
+            <h1 className="header">About Me</h1>
             <p className="about-text about-text-1 about-text-top">
               I pride myself in taking on challenges, solving them, and being
               creative in the process.
