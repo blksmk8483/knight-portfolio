@@ -5,6 +5,7 @@ import ClashOfCharacters from "../assets/ClashOfCharacters.png";
 import ECommerceSite from "../assets/E-Commerce-Site.png";
 import JournalPlaylist from "../assets/JournalPlaylist.gif";
 import Omnifood from "../assets/Omnifood.gif";
+import GuessMyNumber from "../assets/GuessMyNumber.png";
 
 export const ProjectList = [
   {
@@ -27,6 +28,13 @@ export const ProjectList = [
     description:
       "An app to help you plan your square foot garden with interactive gardens and database of plants. Users can save their plans for the future as well as their favorite plants.",
     url: "https://garden2ed.herokuapp.com/",
+  },
+  {
+    name: "Guess My Number",
+    image: GuessMyNumber,
+    description:
+      "A small JavaScript project using DOM-manipulation to guess the number and keep track of your high-score. Play as many times as you want!",
+    url: "https://blksmk8483.github.io/Guess-Number/",
   },
   {
     name: "Employee Tracker",
